@@ -1,0 +1,59 @@
+.text {
+  margin: 0;
+  height: 5rem;
+  line-height: 5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.text span {
+  color: #e94bb4;
+}
+
+.perspective-text {
+  color: #00c4d6;
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 35rem;
+}
+
+.perspective-line {
+  height: 5rem;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #00c4d6;
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -5rem);
+  color: black;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.333);
+}
+
+.perspective-line:nth-child(1) {
+  left: 0;
+}
+
+.perspective-line:nth-child(2) {
+  left: 4.6rem;
+}
+
+.perspective-line:nth-child(3) {
+  left: 9.2rem;
+}
+
+.perspective-line:nth-child(4) {
+  left: 13.7rem;
+}
+
+.perspective-line:nth-child(5) {
+  left: 18.3rem;
+}

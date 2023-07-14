@@ -1,0 +1,32 @@
+.app {
+  background: #ddd;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.app h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  animation: ReusableComponents 3s linear infinite;
+}
+
+@keyframes ReusableComponents {
+  0% {
+    color: #264653;
+  }
+  20% {
+    color: #2a9d8f;
+  }
+  40% {
+    color: #e9c46a;
+  }
+  60% {
+    color: #f4a261;
+  }
+  80% {
+    color: #e76f51;
+  }
+  100% {
+    color: #264653;
+  }
+}

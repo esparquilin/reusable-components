@@ -1,0 +1,293 @@
+/* ////////////////////////// */
+
+.ButtonFillBackgroundLeft {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundLeft:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundLeft::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: #121212;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundLeft:hover::before {
+  width: 100%;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundRight {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundRight:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundRight::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: #121212;
+  top: 0;
+  right: 0;
+
+  z-index: -1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundRight:hover::before {
+  width: 100%;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundTop {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundTop:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundTop::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  background-color: #121212;
+  top: 0;
+  right: 0;
+
+  z-index: -1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundTop:hover::before {
+  height: 100%;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundBottom {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundBottom:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundBottom::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  background-color: #121212;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundBottom:hover::before {
+  height: 100%;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundTopToBottom {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundTopToBottom:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundTopToBottom::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+  transition: transform 0.3s;
+
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+.ButtonFillBackgroundTopToBottom:hover::before {
+  transform: scaleY(100%);
+  transform-origin: top;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundBottomToTop {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundBottomToTop:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundBottomToTop::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+  transition: transform 0.3s;
+
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.ButtonFillBackgroundBottomToTop:hover::before {
+  transform: scaleY(100%);
+  transform-origin: bottom;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundLeftToRight {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundLeftToRight:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundLeftToRight::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+  transition: transform 0.3s;
+
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.ButtonFillBackgroundLeftToRight:hover::before {
+  transform: scaleX(100%);
+  transform-origin: left;
+}
+
+/* ////////////////////////// */
+
+.ButtonFillBackgroundRightToLeft {
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  border: 1px solid #121212;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.ButtonFillBackgroundRightToLeft:hover {
+  color: #fff;
+}
+
+.ButtonFillBackgroundRightToLeft::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+  transition: transform 0.3s;
+
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.ButtonFillBackgroundRightToLeft:hover::before {
+  transform: scaleX(100%);
+  transform-origin: right;
+}
+
+/* ////////////////////////// */

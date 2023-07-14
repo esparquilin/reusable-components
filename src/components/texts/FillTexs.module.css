@@ -1,0 +1,178 @@
+/* ///////////////////////////////// */
+
+.fillLeft {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: inline-block;
+  cursor: default;
+  color: transparent;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+
+.fillLeft::after {
+  content: "FillText on hover (left)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.6s;
+}
+
+.fillLeft:hover::after {
+  color: #aa336a;
+  width: 100%;
+}
+
+/* ///////////////////////////////// */
+
+.fillTop {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: inline-block;
+  cursor: default;
+  color: transparent;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+
+.fillTop::after {
+  content: "FillText on hover (top)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.6s;
+}
+
+.fillTop:hover::after {
+  color: #aa336a;
+  height: 100%;
+}
+
+/* ///////////////////////////////// */
+
+.fillShadowTop {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: inline-block;
+  cursor: default;
+  color: transparent;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+
+.fillShadowTop::after {
+  content: "FillText on hover with shadow (top)";
+  position: absolute;
+  top: -20%;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.fillShadowTop:hover::after {
+  color: #aa336a;
+  top: 0;
+  height: 100%;
+}
+/* ///////////////////////////////// */
+
+.fillShadowBottom {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: inline-block;
+  cursor: default;
+  color: transparent;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+
+.fillShadowBottom::after {
+  content: "FillText on hover with shadow (bottom)";
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.fillShadowBottom:hover::after {
+  color: #aa336a;
+  top: 0;
+  height: 100%;
+}
+
+/* ///////////////////////////////// */
+
+.fillShadowLeft {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: inline-block;
+  cursor: default;
+  color: transparent;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+
+.fillShadowLeft::after {
+  content: "FillText on hover with shadow (left)";
+  position: absolute;
+  top: 0;
+  left: -5%;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.fillShadowLeft:hover::after {
+  color: #aa336a;
+  width: 100%;
+  left: 0;
+}
+
+/* ///////////////////////////////// */
+
+.fillShadowRight {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: inline-block;
+  cursor: default;
+  color: transparent;
+  -webkit-text-stroke: 1px #333;
+  position: relative;
+}
+
+.fillShadowRight::after {
+  content: "FillText on hover with shadow (right)";
+  position: absolute;
+  top: 0;
+  left: 105%;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.fillShadowRight:hover::after {
+  color: #aa336a;
+  width: 100%;
+  left: 0;
+}
+
+/* ///////////////////////////////// */
